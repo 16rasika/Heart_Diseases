@@ -21,7 +21,7 @@ st.title ('Heart Diseases Prediction App')
 
 #Data obtined : (kaggle)https://www.kaggle.com/datasets/priyanka841/heart-disease-prediction-uci?select=heart.csv
 
-st.header("Please,fill information to predict your heart condition'")
+st.header("Fill information to predict your heart condition")
 #st.header("Please, fill below information to predict your heart condition'")
 
 
@@ -86,17 +86,17 @@ input_df,tres,thal,cp = user_input_features()
 
 def function_heart(tres,thal):
     if tres>=140:
-      return (":orange[You might have Heart Disease]")
+      return (":orange[It is always better to see Cardiologist. You might have Heart Disease]")
     elif thal>=1: 
-      return(":red[Take Care! You have Heart Disease]")
+      return(":red[Take Care! It is always better to see Cardiologist.You have Heart Disease]")
     elif cp>=2:
-      return(":red[Take Care! You have Heart Disease]")
+      return(":red[Take Care! It is always better to see Cardiologist.You have Heart Disease]")
     elif fbs== high:
-      return(":red[Take Care! You have Heart Disease]")
+      return(":red[Take Care! It is always better to see Cardiologist.You have Heart Disease]")
       #image = Image.open('take_care.jpg')
      # st.image(image, use_column_width='always')
     else:    
-       return(":green[According to model You are on low risk!]")
+       return(":green[It is always better to see Cardiologist. According to model You are on low risk!]")
 
 #st.write('The current best movie title is', title)
 #st.write(Healthy_heart)
@@ -137,16 +137,16 @@ prediction_proba =load_clf.predict_proba(df)
 #Healthy_heart=function_heart(tres,thal)
 #st.markdown(Healthy_heart)
 
-st.subheader('Prediction')
-st.write(prediction)
+#st.subheader('Prediction')
+#st.write(prediction)
 
-st.subheader('Prediction Probabilty')
-st.write(prediction_proba)
+#st.subheader('Prediction Probabilty')
+#st.write(prediction_proba)
 
 if (prediction_proba[0,1] >= 0.2) & (prediction_proba[0,1] <=0.8):     
-    st.write (":orange[You might have Heart Disease]")
+    st.write (":orange[It is always better to see Cardiologist. You might have Heart Disease]")
 elif prediction == 0:  
-   st.write(":green[According to model You are on low risk!]")
+   st.write(":green[It is always better to see Cardiologist. According to model You are on low risk!]")
 else:  
-   st.write(":red[Take Care! You have Heart Disease]") 
+   st.write(":red[Take Care! It is always better to see Cardiologist.You have Heart Disease]") 
 
