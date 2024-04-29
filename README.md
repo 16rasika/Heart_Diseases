@@ -16,9 +16,8 @@ This dataset contain some medical information of patients which tells whether th
 8.thalach: Maximum heart rate achieved.
 9.exang: Exercise induced angina.
 10.oldpeak: ST depression induced by exercise relative to rest
-
 # Highest Accuracy :Random Forest with 92% 
-
+# Reference:https://www.kaggle.com/datasets/arezaei81/heartcsv
 
 # About Heart stroke dataset
 # Description:
@@ -37,5 +36,6 @@ According to the World Health Organization (WHO) stroke is the 2nd leading cause
 10.bmi: body mass index
 11.smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
 12.stroke: 1 if the patient had a stroke or 0 if not
+# Highest Accuracy:XGBoost Classifier with 94.34%
 
 # Reference: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
