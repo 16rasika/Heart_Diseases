@@ -1,5 +1,24 @@
-# Heart_Diseases
-Heart diseases prediction with stream lit app
+# Genaral Info
+A heart attack (Cardiovascular diseases) occurs when the flow of blood to the heart muscle suddenly becomes blocked. From WHO statistics every year 17.9 million dying from heart attack. The medical study says that human life style is the main reason behind this heart problem. Apart from this there are many key factors which warns that the person may/maynot getting chance of heart attack.
+
+# About Heart_Diseases prediction dataset
+# Description:
+Implemented Heart diseases prediction with stream lit app
+This dataset contain some medical information of patients which tells whether that person getting a heart attack chance is less or more. Using the information explore the dataset and classify the target variable using different Machine Learning models and findout which algorithm suitable for this dataset.
+# Attribute Information:
+1.age: The age of the patient.
+2.sex: Gender of the patient (0: female, 1: male).
+3.cp: Type of chest pain.
+4.trestbps: Resting blood pressure.
+5.chol: Serum cholesterol.
+6.fbs: Fasting blood sugar > 120 mg/dl.
+7.restecg: Resting electrocardiographic results.
+8.thalach: Maximum heart rate achieved.
+9.exang: Exercise induced angina.
+10.oldpeak: ST depression induced by exercise relative to rest
+
+# Highest Accuracy :
+
 
 # About Heart stroke dataset
 # Description:
