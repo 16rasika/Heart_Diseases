@@ -17,7 +17,7 @@ This dataset contain some medical information of patients which tells whether th
 9.exang: Exercise induced angina.
 10.oldpeak: ST depression induced by exercise relative to rest
 
-# Highest Accuracy :
+# Highest Accuracy :Random Forest with 92% 
 
 
 # About Heart stroke dataset
