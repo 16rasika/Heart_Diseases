@@ -4,7 +4,12 @@ A heart attack (Cardiovascular diseases) occurs when the flow of blood to the he
 # About Heart_Diseases prediction dataset
 # Description:
 Implemented Heart diseases prediction with stream lit app
-This dataset contain some medical information of patients which tells whether that person getting a heart attack chance is less or more. Using the information explore the dataset and classify the target variable using different Machine Learning models and findout which algorithm suitable for this dataset.
+This dataset contain some medical information of patients which tells whether that person getting a heart attack chance is less or more. Using the information explore the dataset and classify the target variable using different Machine Learning models and findout which algorithm suitable for this dataset.	
+
+- Developed a cutting-edge machine learning algorithm to develop a predictive model using Python in Jupyter- lab & with Strem-lit app.
+- Visualization and analysis of data with matplotlib.
+
+
 # Attribute Information:
 1.age: The age of the patient.
 2.sex: Gender of the patient (0: female, 1: male).
